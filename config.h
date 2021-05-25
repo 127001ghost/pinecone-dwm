@@ -20,7 +20,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "\uf015", "\uf120", "\uf14e", "\uf07c", "\uf067", "\uf0ad" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -39,9 +39,9 @@ static const int resizehints = 1;    /* 1 means respect size hints in tiled resi
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
-	{ "tile",      tile },    /* first entry is default */
-	{ "float",      NULL },    /* no layout function means floating behavior */
-	{ "[M]",      monocle },
+	{ "\uf065",      tile },    /* first entry is default */
+	{ "\uf0c5",      NULL },    /* no layout function means floating behavior */
+	{ "\uf002",      monocle },
 };
 
 /* key definitions */
